@@ -56,15 +56,15 @@
 }
 
 .items__paragraph--description::before {
-    content: url(images/icon-location.svg);
+    content: url(../images/icon-location.svg);
 }
 
 .items__paragraph--phone::before {
-    content: url(images/icon-phone.svg);
+    content: url(../images/icon-phone.svg);
 }
 
 .items__paragraph--email::before {
-    content: url(images/icon-email.svg);
+    content: url(../images/icon-email.svg);
 }
 
 .items__list{
@@ -153,6 +153,10 @@
     }
 
     .nav__items--social{
+        justify-content: center;
+    }
+
+    .footer__footer{
         justify-content: center;
     }
 }

@@ -1,6 +1,6 @@
 .wrapper__header{
     width: 100%;
-    background-image: url(images/bg-hero-desktop.svg);
+    background-image: url(../images/bg-hero-desktop.svg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -172,7 +172,7 @@
 
     .wrapper__header{
         width: 100%;
-        background-image: url(images/bg-hero-mobile.svg);
+        background-image: url(../images/bg-hero-mobile.svg);
     }
 
     .nav__logo{
