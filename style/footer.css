@@ -1,0 +1,158 @@
+.wrapper__footer {
+    background-color: hsl(192, 100%, 9%);
+    color: #fff;
+    padding: 130px 0 20px 0;
+}
+
+.footer__logo {
+    max-width: 1500px;
+    padding: 0 30px 0 30px;
+    margin: 0 auto 40px auto;
+}
+
+.footer__nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1500px;
+    padding: 0 30px 0 30px;
+    margin: 0 auto;
+}
+
+.nav__items {
+    display: flex;
+    flex-basis: 20%;
+    justify-content: center;
+}
+
+.nav__items--bigger {
+    flex-basis: 35%;
+    flex-direction: column;
+}
+
+.items__paragraph {
+    display: flex;
+    font-size: 14px;
+    font-weight: 200;
+    margin-left: 0px;
+}
+
+.paragraph__link {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.paragraph__link--description{
+    margin-top: 0px;
+}
+
+.items__paragraph{
+    margin-bottom: 10px;
+}
+
+.items__paragraph--description{
+    margin-top: 14px;
+    margin-right: 80px;
+}
+
+.items__paragraph--description::before {
+    content: url(images/icon-location.svg);
+}
+
+.items__paragraph--phone::before {
+    content: url(images/icon-phone.svg);
+}
+
+.items__paragraph--email::before {
+    content: url(images/icon-email.svg);
+}
+
+.items__list{
+    list-style: none;
+    margin-top: 14px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 200;
+    padding-left: 0px;
+}
+
+.list__items{
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.list__items:hover{
+    text-decoration: underline;
+}
+
+
+.items__socialIcons{
+    margin-top: 14px;
+}
+.fab{
+    font-size: 30px;
+    margin: 0 10px;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.fab:hover{
+    color:hsl(322, 100%, 66%);
+}
+
+.footer__footer {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 1500px;
+    padding: 0 30px 0 30px;
+    margin: 0 auto;
+}
+
+.footer__paragraph {
+    font-size: 12px;
+    font-weight: 200;
+}
+
+
+@media (max-width: 992px){
+    .fab{
+        font-size: 26px;
+    }
+}
+
+@media(max-width: 450px){
+
+    .logo__logo{
+        width: 65%;
+    }
+
+    .items__paragraph{
+        font-size: 12px;
+    }
+
+    .items__paragraph--description{
+        margin-top: 14px;
+        margin-right: 0px;
+    }
+
+    .footer__nav {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .nav__items{
+        justify-content: flex-start;
+    }
+
+    .nav__items--bigger{
+        margin-bottom: 40px;
+    }
+
+    .items__list{
+        margin: 0px;
+    }
+
+    .nav__items--social{
+        justify-content: center;
+    }
+}
