@@ -200,6 +200,7 @@
         margin-top: 20px;
         flex-basis: 100%;
         text-align: center;
+        padding-right: 0;
     }
 
     .hero__div--image{
